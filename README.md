@@ -1,4 +1,23 @@
+# 👋 Hello, I'm Suryakant Sahoo
 
+AI & Web Developer | Full-Stack Enthusiast | GitHub Explorer | Future Billionaire Founder 🚀  
+
+I'm building **innovative AI-powered products, interactive web apps, and dynamic GitHub projects**. I treat every project like a mini-startup, iterating, optimizing, and making it production-ready.  
+
+---
+
+## 🔭 Currently Working On
+- **AI Nurse Agent** – Voice + Vision AI assistant for patient vitals monitoring  
+- **Interactive Web Projects** – Games, dashboards, and AI demos  
+
+---
+
+## 🌱 Currently Learning
+- Advanced **React.js** and interactive web applications  
+- **AI workflows & automation** with Python & n8n  
+- Building **mini-game engines** for browser-playable games  
+
+---
 ## 🌐 Socials:
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://linkedin.com/in/https://www.linkedin.com/in/suryakant-sahoo-189800346?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3BTNVHdxQLRxqPUKh0meEjUQ%3D%3D) [![email](https://img.shields.io/badge/Email-D14836?logo=gmail&logoColor=white)](mailto:xbsuryakant@gmail.com) 
 
