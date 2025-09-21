@@ -2,11 +2,13 @@
 ## 🌐 Socials:
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://linkedin.com/in/https://www.linkedin.com/in/suryakant-sahoo-189800346?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3BTNVHdxQLRxqPUKh0meEjUQ%3D%3D) [![email](https://img.shields.io/badge/Email-D14836?logo=gmail&logoColor=white)](mailto:xbsuryakant@gmail.com) 
 
-## 🐍 Snake Game Demo
+<!-- Snake Game Animation for Suryakant's Profile -->
 
-Watch the snake in action!  
-
-![Snake Game](https://github.com/suryakant-source/snake-game-demo/blob/main/snake_demo.gif)
+<div align="center">
+  <img src="https://github.com/suryakant-source/snake-game-demo/blob/main/snake_demo.gif" alt="Snake Game Animation" width="400" />
+  <p>🐍 Watch the snake move on my profile!</p>
+  <a href="https://suryakant-source.github.io/snake-game/">Play the full Snake Game 🕹️</a>
+</div>
 
 
 # 💻 Tech Stack:
