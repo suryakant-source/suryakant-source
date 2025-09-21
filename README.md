@@ -2,14 +2,11 @@
 ## 🌐 Socials:
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://linkedin.com/in/https://www.linkedin.com/in/suryakant-sahoo-189800346?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3BTNVHdxQLRxqPUKh0meEjUQ%3D%3D) [![email](https://img.shields.io/badge/Email-D14836?logo=gmail&logoColor=white)](mailto:xbsuryakant@gmail.com) 
 
-<!-- Snake Game Animation for Suryakant's Profile -->
+<!-- Snake Game Repo View -->
 
 <div align="center">
-  <img src="https://github.com/suryakant-source/snake-game-demo/blob/main/snake_demo.gif" alt="Snake Game Animation" width="400" />
-  <p>🐍 Watch the snake move on my profile!</p>
-  <a href="https://suryakant-source.github.io/snake-game/">Play the full Snake Game 🕹️</a>
+  <img src="https://profile-readme-generator.com/assets/snake.svg" alt="Snake animation" />
 </div>
-
 
 # 💻 Tech Stack:
 ![C](https://img.shields.io/badge/c-%2300599C.svg?style=for-the-badge&logo=c&logoColor=white) ![Java](https://img.shields.io/badge/java-%23ED8B00.svg?style=for-the-badge&logo=openjdk&logoColor=white) ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)
