@@ -1,15 +1,18 @@
 from PIL import Image, ImageDraw, ImageFont
-import urllib.request,json,datetime,pathlib,math,html,random,re
+import urllib.request,json,datetime,pathlib,math,html,random,re,os
 from bs4 import BeautifulSoup
 O='suryakant-source';root=pathlib.Path('assets-v3');root.mkdir(exist_ok=True)
-def fetch(u):return urllib.request.urlopen(urllib.request.Request(u,headers={'User-Agent':'profile-public-data'}),timeout=30).read()
+def fetch(u):
+ headers={'User-Agent':'profile-public-data'}
+ if u.startswith('https://api.github.com/') and os.environ.get('GH_TOKEN'):headers['Authorization']='Bearer '+os.environ['GH_TOKEN']
+ return urllib.request.urlopen(urllib.request.Request(u,headers=headers),timeout=30).read()
 u=json.loads(fetch(f'https://api.github.com/users/{O}'));repos=json.loads(fetch(f'https://api.github.com/users/{O}/repos?per_page=100'));repos=[r for r in repos if not r['private']]
 g=BeautifulSoup(fetch(f'https://github.com/users/{O}/contributions'),'html.parser');summary=' '.join(g.select_one('h2').get_text(' ',strip=True).split());days=sorted([{'date':x['data-date'],'level':int(x.get('data-level','0'))} for x in g.select('td.ContributionCalendar-day')],key=lambda x:x['date'])
 assert days
 num=int(re.search(r'[\d,]+',summary).group().replace(',',''));stars=sum(r['stargazers_count'] for r in repos)
 archive=json.loads(fetch(f'https://api.github.com/repos/{O}/dsa-solutions/git/trees/main?recursive=1'))['tree']
 practice={site:sum(x['path'].startswith(site+'/') and x['path'].endswith('.py') for x in archive) for site in ['leetcode','codeforces']}
-state={'practice':practice,'design':4,'repos':u['public_repos'],'followers':u['followers'],'contributions':num,'days':days,'stars':stars,'languages':[(r['name'],r['language']) for r in repos]}
+state={'practice':practice,'design':4,'repos':u['public_repos'],'followers':u['followers'],'contributions':num,'days':days,'stars':stars,'languages':[[r['name'],r['language']] for r in repos]}
 st=pathlib.Path('4-public-dashboard-data.json')
 if st.exists() and json.loads(st.read_text())==state: print('Public data unchanged');raise SystemExit()
 W=1000;mint='#88dec3';cyan='#57c0ca';font='/usr/share/fonts/truetype/dejavu/DejaVuSansMono.ttf';bold=font.replace('.ttf','-Bold.ttf')
