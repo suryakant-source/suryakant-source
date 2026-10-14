@@ -12,7 +12,7 @@ assert days
 num=int(re.search(r'[\d,]+',summary).group().replace(',',''));stars=sum(r['stargazers_count'] for r in repos)
 archive=json.loads(fetch(f'https://api.github.com/repos/{O}/dsa-solutions/git/trees/main?recursive=1'))['tree']
 practice={site:sum(x['path'].startswith(site+'/') and x['path'].endswith('.py') for x in archive) for site in ['leetcode','codeforces']}
-state={'practice':practice,'design':5,'repos':u['public_repos'],'followers':u['followers'],'contributions':num,'days':days,'stars':stars,'languages':[[r['name'],r['language']] for r in repos]}
+state={'practice':practice,'design':6,'repos':u['public_repos'],'followers':u['followers'],'contributions':num,'days':days,'stars':stars,'languages':[[r['name'],r['language']] for r in repos]}
 st=pathlib.Path('4-public-dashboard-data.json')
 if st.exists() and json.loads(st.read_text())==state: print('Public data unchanged');raise SystemExit()
 W=1000;mint='#88dec3';cyan='#57c0ca';font='/usr/share/fonts/truetype/dejavu/DejaVuSansMono.ttf';bold=font.replace('.ttf','-Bold.ttf')
