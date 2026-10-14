@@ -1,6 +1,6 @@
 <div align="center">
 
-![Suryakant Sahoo](https://capsule-render.vercel.app/api?type=waving&height=180&section=header&color=0:0f172a,100:164e63&text=Suryakant%20Sahoo&fontColor=ffffff&fontSize=42&desc=Web%20Development%20%7C%20AI-assisted%20Projects&descSize=18&descAlignY=72)
+![Animated ASCII developer terminal](1-terminal.gif)
 
 # Suryakant Sahoo
 
@@ -10,11 +10,17 @@
 
 </div>
 
+![Animated divider](3-divider.gif)
+
 ## About
 
 Web developer working with React, Next.js and TypeScript. I build web interfaces and explore AI-assisted development.
 
 I'm open to remote web-development roles and freelance projects.
+
+![Animated tech strip](2-stack.gif)
+
+![Animated divider](3-divider.gif)
 
 ## Tools
 
@@ -27,12 +33,16 @@ I'm open to remote web-development roles and freelance projects.
 
 I use AI coding tools in my workflow.
 
+![Animated divider](3-divider.gif)
+
 ## Selected work
 
 | Project | What it is |
 | :--- | :--- |
 | [PromptForge AI](https://github.com/suryakant-source/promptforge-ai) | A Next.js, React and TypeScript UI prototype for a prompt-writing product. Its demo uses preset examples, not live AI generation. |
 | [Java programming](https://github.com/suryakant-source/JAVA-Programming) | A collection of Java practice code. |
+
+![Animated divider](3-divider.gif)
 
 ## Portfolio demos
 
@@ -41,6 +51,23 @@ I use AI coding tools in my workflow.
 
 These are personal demos, not claims of paid client work.
 
+![Animated divider](3-divider.gif)
+
 ## Contact
 
 [LinkedIn](https://www.linkedin.com/in/suryakant-sahoo19/) · [Email](mailto:xbsuryakant@gmail.com)
+
+
+![Animated divider](3-divider.gif)
+
+## Contribution arcade
+
+A snake animation drawn from my public GitHub contribution graph. It is a visualization, not an interactive game or a separate contribution score.
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="github-snake-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="github-snake.svg" />
+  <img alt="Snake animation of public GitHub contributions" src="github-snake.svg" />
+</picture>
+
+Updated daily from GitHub data. No synthetic activity or backdated commits.
