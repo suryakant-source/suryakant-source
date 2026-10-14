@@ -1,4 +1,4 @@
-![Profile scan: Suryakant Sahoo, web development and AI-assisted projects](1-scan.gif)
+![Profile scan: Suryakant Sahoo, web development and AI-assisted projects](1-scan.gif?v=2)
 
 # Suryakant Sahoo
 
