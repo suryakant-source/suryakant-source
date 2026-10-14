@@ -12,7 +12,7 @@ assert days
 num=int(re.search(r'[\d,]+',summary).group().replace(',',''));stars=sum(r['stargazers_count'] for r in repos)
 archive=json.loads(fetch(f'https://api.github.com/repos/{O}/dsa-solutions/git/trees/main?recursive=1'))['tree']
 practice={site:sum(x['path'].startswith(site+'/') and x['path'].endswith('.py') for x in archive) for site in ['leetcode','codeforces']}
-state={'practice':practice,'design':4,'repos':u['public_repos'],'followers':u['followers'],'contributions':num,'days':days,'stars':stars,'languages':[[r['name'],r['language']] for r in repos]}
+state={'practice':practice,'design':5,'repos':u['public_repos'],'followers':u['followers'],'contributions':num,'days':days,'stars':stars,'languages':[[r['name'],r['language']] for r in repos]}
 st=pathlib.Path('4-public-dashboard-data.json')
 if st.exists() and json.loads(st.read_text())==state: print('Public data unchanged');raise SystemExit()
 W=1000;mint='#88dec3';cyan='#57c0ca';font='/usr/share/fonts/truetype/dejavu/DejaVuSansMono.ttf';bold=font.replace('.ttf','-Bold.ttf')
@@ -65,7 +65,7 @@ for k in range(20):
   for x in range(40,950,7):
    if mask.getpixel((x,y))>100:d.text((x,y),'+' if (x//7+y//8)%3 else ':',font=f(10),fill=mint if abs(x-k*50)<90 else '#467f6f')
  frames.append(im)
-frames[0].save(root/'wordmark.gif',save_all=True,append_images=frames[1:],duration=100,loop=0,optimize=True)
+frames[0].save(root/'wordmark.gif',save_all=True,append_images=frames[1:],duration=[1600]+[100]*19,loop=0,optimize=True)
 # Two original animations using the exact public contribution day levels
 colors=['#173c35','#2b6653','#419175','#6bb99b','#9aebca'];start=datetime.date.fromisoformat(days[0]['date']);cells=[]
 for day in days:
@@ -73,15 +73,6 @@ for day in days:
 active=[i for i,c in enumerate(cells) if c[2]];targets=active[::max(1,len(active)//12)][:12]
 def board(title,h=335):
  im=Image.new('RGB',(1000,h),'#081817');d=ImageDraw.Draw(im);d.rounded_rectangle((8,8,991,h-9),20,outline='#386b5c',width=2);d.text((40,30),title,font=f(21,True),fill=mint);return im,d
-frames=[]
-for k in range(60):
- im,d=board('CONTRIBUTION TRAIL / PUBLIC ACTIVITY',295)
- for x,y,l,dt in cells:d.rounded_rectangle((x,y,x+11,y+13),3,fill=colors[l])
- ix=int(k*(len(cells)-1)/59)
- for off in range(10):
-  x,y,l,dt=cells[max(0,ix-off)];d.rounded_rectangle((x-1,y-1,x+12,y+14),3,fill='#b1efda' if off==0 else '#5ba48a')
- d.text((40,259),f'{num} public contributions / snake overlay is decorative',font=f(14),fill='#8cac9f');frames.append(im)
-frames[0].save(root/'trail.gif',save_all=True,append_images=frames[1:],duration=100,loop=0,optimize=True)
 frames=[]
 for k in range(96):
  im,d=board('ORBIT / CONTRIBUTION TARGETS',365);idx=min(k//8,len(targets)-1);phase=k%8;target=targets[idx];tx,ty,lv,dt=cells[target];destroyed=set(targets[:idx])
@@ -95,7 +86,7 @@ for k in range(96):
   for a in range(8):
    an=a*math.pi/4;d.line((px+math.cos(an)*r*.5,ty+6+math.sin(an)*r*.5,px+math.cos(an)*r,ty+6+math.sin(an)*r),fill=cyan,width=2)
  d.text((40,328),f'ANIMATED DEMO  /  Target day: {dt}  /  Not playable in README',font=f(14),fill='#8cac9f');frames.append(im)
-frames[0].save(root/'shooter.gif',save_all=True,append_images=frames[1:],duration=90,loop=0,optimize=True)
+frames[0].save(root/'shooter.gif',save_all=True,append_images=frames[1:],duration=[1800]+[90]*95,loop=0,optimize=True)
 frames[46].save('/tmp/shooter-preview.png')
 def pic(n,alt):return f'<picture><source media="(prefers-color-scheme: light)" srcset="assets-v3/{n}-light.svg"><img src="assets-v3/{n}-dark.svg" width="100%" alt="{alt}"></picture>'
 def div():return '\n<p align="center">─────── ◇ ───────</p>\n'
@@ -105,8 +96,9 @@ s+=f'<table width="100%"><tr><td width="58%" valign="top"><h2>The point of view<
 s+='<h2>In the current cut</h2>\n'+pic('highlights','Web, AI and programming practice highlights')+div()+'<h2>Production palette</h2>\n'+pic('stack','Project and practice tools')+div()+'<h2>Language signal</h2>\n'+pic('languages','Public primary-language repository breakdown')+'<h2>Practice log</h2>\n'+pic('practice','Real archived LeetCode and Codeforces source counts')+'<p><a href="https://github.com/suryakant-source/dsa-solutions">Browse the source archive</a></p>'+div()+'<h2>Featured reel</h2>\n'+pic('projects','Four personal repository cards')+'\n<table width="100%"><tr>'
 for name,desc in [('promptforge-ai','Next.js prompt UI prototype. Preset demo, not live generation.'),('dsa-solutions','AI-assisted LeetCode and Codeforces Python archive.'),('JAVA-Programming','Java programming practice.'),('C-programming','C programming practice.')]:
  r=next(r for r in repos if r['name']==name);s+=f'<td width="25%" valign="top"><strong><a href="{r["html_url"]}">{name}</a></strong><p>{desc}</p><sub>{r["language"] or "Practice"}</sub></td>'
-s+='</tr></table>\n<p><sub>Personal demos and practice, not paid client-work claims.</sub></p>\n'+div()+pic('stats','Public repository, contribution, follower and star snapshot')+div()+'<h2>Contribution trail</h2>\n<img src="assets-v3/trail.gif" width="100%" alt="Real public contribution cells with a decorative snake">\n<p><sub>Real public day levels; snake is a decorative overlay. Private activity is excluded.</sub></p>\n<h2>Play the next move</h2>\n<img src="assets-v3/shooter.gif" width="100%" alt="Original auto-playing space shooter targeting public contribution cells">\n<p><sub>Original auto-playing animated demo, not an interactive game. Targets use real public contribution day levels. The animation does not change GitHub activity.</sub></p>\n'+div()+'<div align="center"><sub>THE NEXT SCENE</sub><h2>Keep the story moving</h2><p>Have an idea for a useful website or automation? Get in touch.</p><p>'+links+'</p><p><sub>Original self-hosted profile assets. Public snapshots refresh daily only when data changes.</sub></p></div>\n'
-mapping={'hero-dark.svg':'1-hero-dark.svg','hero-light.svg':'2-hero-light.svg','highlights-dark.svg':'3-highlights-dark.svg','highlights-light.svg':'4-highlights-light.svg','projects-dark.svg':'5-projects-dark.svg','projects-light.svg':'6-projects-light.svg','shooter.gif':'7-shooter.gif','stack-dark.svg':'8-stack-dark.svg','stack-light.svg':'9-stack-light.svg','stats-dark.svg':'10-stats-dark.svg','stats-light.svg':'11-stats-light.svg','trail.gif':'12-trail.gif','wordmark.gif':'13-wordmark.gif'}
+s+='</tr></table>\n<p><sub>Personal demos and practice, not paid client-work claims.</sub></p>\n'+div()+pic('stats','Public repository, contribution, follower and star snapshot')+div()+'<h2>Play the next move</h2>\n<img src="assets-v3/shooter.gif" width="100%" alt="Original auto-playing space shooter targeting public contribution cells">\n<p><sub>Original auto-playing animated demo, not an interactive game. Targets use real public contribution day levels. The animation does not change GitHub activity.</sub></p>\n'+div()+'<div align="center"><sub>THE NEXT SCENE</sub><h2>Keep the story moving</h2><p>Have an idea for a useful website or automation? Get in touch.</p><p>'+links+'</p><p><sub>Original self-hosted profile assets. Public snapshots refresh daily only when data changes.</sub></p></div>\n'
+mapping={'hero-dark.svg':'1-hero-dark.svg','hero-light.svg':'2-hero-light.svg','highlights-dark.svg':'3-highlights-dark.svg','highlights-light.svg':'4-highlights-light.svg','projects-dark.svg':'5-projects-dark.svg','projects-light.svg':'6-projects-light.svg','shooter.gif':'2-shooter-start.gif','stack-dark.svg':'8-stack-dark.svg','stack-light.svg':'9-stack-light.svg','stats-dark.svg':'10-stats-dark.svg','stats-light.svg':'11-stats-light.svg','wordmark.gif':'1-wordmark-start.gif'}
 for a,b in mapping.items():
  s=s.replace('assets-v3/'+a,'assets-v3/'+b);(root/a).rename(root/b)
+for stale in ['12-trail.gif','7-shooter.gif','13-wordmark.gif']: (root/stale).unlink(missing_ok=True)
 pathlib.Path('README.md').write_text(s);st.write_text(json.dumps(state,indent=2));print('Generated original scene, wordmark, cards, trail and shooter')
