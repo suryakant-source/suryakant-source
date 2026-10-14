@@ -3,6 +3,9 @@ on:
   workflow_dispatch:
   schedule:
     - cron: '23 18 * * *'
+concurrency:
+  group: public-profile-dashboard
+  cancel-in-progress: false
 permissions:
   contents: write
 jobs:
@@ -23,5 +26,6 @@ jobs:
             echo 'Public data unchanged; no commit.'
           else
             git commit -m 'Refresh dashboard from public GitHub data'
+            git pull --no-rebase origin main
             git push
           fi
