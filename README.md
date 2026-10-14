@@ -1,43 +1,46 @@
-# 👋 Hello, I'm Suryakant Sahoo
-
-AI & Web Developer | Full-Stack Enthusiast | GitHub Explorer | Future Billionaire Founder 🚀  
-
-I'm building **innovative AI-powered products, interactive web apps, and dynamic GitHub projects**. I treat every project like a mini-startup, iterating, optimizing, and making it production-ready.  
-
----
-
-## 🔭 Currently Working On
-- **AI Nurse Agent** – Voice + Vision AI assistant for patient vitals monitoring  
-- **Interactive Web Projects** – Games, dashboards, and AI demos  
-
----
-
-## 🌱 Currently Learning
-- Advanced **React.js** and interactive web applications  
-- **AI workflows & automation** with Python & n8n  
-- Building **mini-game engines** for browser-playable games  
-
----
-## 🌐 Socials:
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://linkedin.com/in/https://www.linkedin.com/in/suryakant-sahoo-189800346?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3BTNVHdxQLRxqPUKh0meEjUQ%3D%3D) [![email](https://img.shields.io/badge/Email-D14836?logo=gmail&logoColor=white)](mailto:xbsuryakant@gmail.com) 
-
-<!-- Snake Game Repo View -->
-
 <div align="center">
-  <img src="https://profile-readme-generator.com/assets/snake.svg" alt="Snake animation" />
+
+![Suryakant Sahoo](https://capsule-render.vercel.app/api?type=waving&height=180&section=header&color=0:0f172a,100:164e63&text=Suryakant%20Sahoo&fontColor=ffffff&fontSize=42&desc=Web%20Development%20%7C%20AI-assisted%20Projects&descSize=18&descAlignY=72)
+
+# Suryakant Sahoo
+
+### Web developer · React, Next.js & TypeScript
+
+[Portfolio](https://suryakant-sahoo-portfolio.netlify.app/) · [AI demos](https://suryakant16-portfolio.netlify.app/) · [LinkedIn](https://www.linkedin.com/in/suryakant-sahoo19/) · [Email](mailto:xbsuryakant@gmail.com)
+
 </div>
 
-# 💻 Tech Stack:
-![C](https://img.shields.io/badge/c-%2300599C.svg?style=for-the-badge&logo=c&logoColor=white) ![Java](https://img.shields.io/badge/java-%23ED8B00.svg?style=for-the-badge&logo=openjdk&logoColor=white) ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)
-# 📊 GitHub Stats:
-![](https://github-readme-stats.vercel.app/api?username=suryakant-source&theme=radical&hide_border=true&include_all_commits=true&count_private=true)<br/>
-![](https://nirzak-streak-stats.vercel.app/?user=suryakant-source&theme=radical&hide_border=true)<br/>
-![](https://github-readme-stats.vercel.app/api/top-langs/?username=suryakant-source&theme=radical&hide_border=true&include_all_commits=true&count_private=true&layout=compact)
+## About
 
-### ✍️ Random Dev Quote
-![](https://quotes-github-readme.vercel.app/api?type=horizontal&theme=radical)
+Web developer working with React, Next.js and TypeScript. I build web interfaces and explore AI-assisted development.
 
----
-[![](https://visitcount.itsvg.in/api?id=suryakant-source&icon=0&color=0)](https://visitcount.itsvg.in)
+I'm open to remote web-development roles and freelance projects.
 
-<!-- Proudly created with GPRM ( https://gprm.itsvg.in ) -->
+## Tools
+
+![React](https://img.shields.io/badge/React-20232a?style=for-the-badge&logo=react&logoColor=61dafb)
+![Next.js](https://img.shields.io/badge/Next.js-111827?style=for-the-badge&logo=nextdotjs&logoColor=ffffff)
+![TypeScript](https://img.shields.io/badge/TypeScript-3178c6?style=for-the-badge&logo=typescript&logoColor=ffffff)
+![JavaScript](https://img.shields.io/badge/JavaScript-f7df1e?style=for-the-badge&logo=javascript&logoColor=111827)
+![Python](https://img.shields.io/badge/Python-3776ab?style=for-the-badge&logo=python&logoColor=ffffff)
+![Java](https://img.shields.io/badge/Java-e76f00?style=for-the-badge&logo=openjdk&logoColor=ffffff)
+
+I use AI coding tools in my workflow.
+
+## Selected work
+
+| Project | What it is |
+| :--- | :--- |
+| [PromptForge AI](https://github.com/suryakant-source/promptforge-ai) | A Next.js, React and TypeScript UI prototype for a prompt-writing product. Its demo uses preset examples, not live AI generation. |
+| [Java programming](https://github.com/suryakant-source/JAVA-Programming) | A collection of Java practice code. |
+
+## Portfolio demos
+
+- [Web and UI demos](https://suryakant-sahoo-portfolio.netlify.app/)
+- [AI and automation demos](https://suryakant16-portfolio.netlify.app/)
+
+These are personal demos, not claims of paid client work.
+
+## Contact
+
+[LinkedIn](https://www.linkedin.com/in/suryakant-sahoo19/) · [Email](mailto:xbsuryakant@gmail.com)
