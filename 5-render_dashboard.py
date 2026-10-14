@@ -12,7 +12,7 @@ counts=collections.Counter(r.get('language') or 'Unset' for r in repos)
 html=BeautifulSoup(fetch(f'https://github.com/users/{owner}/contributions'),'html.parser')
 graph={'summary':' '.join(html.select_one('h2').get_text(' ',strip=True).split()),'days':[{'date':x.get('data-date'),'level':int(x.get('data-level','0'))} for x in html.select('td.ContributionCalendar-day')]}
 if not graph['days']:raise RuntimeError('No contribution data')
-state={'public_repos':user['public_repos'],'followers':user['followers'],'following':user['following'],'languages':dict(counts),'graph':graph,'avatar':user['avatar_url']}
+state={'design_version':2,'public_repos':user['public_repos'],'followers':user['followers'],'following':user['following'],'languages':dict(counts),'graph':graph,'avatar':user['avatar_url']}
 statepath=pathlib.Path('4-public-dashboard-data.json')
 if statepath.exists() and json.loads(statepath.read_text())==state:
     print('Public data unchanged; no new images.');raise SystemExit(0)
@@ -38,7 +38,7 @@ for k in range(28):
   d.text((48,118+y*9.5),line,font=f(12),fill='#75b398')
  sy=119+k*9.5;d.rectangle((42,sy,405,sy+5),fill='#aceed5')
  d.text((449,118),'SURYAKANT',font=f(34,True),fill=mint);d.text((449,160),'SAHOO',font=f(34,True),fill=ink)
- rows=[('ROLE','Web developer'),('STACK','React / Next.js / TypeScript'),('WORKFLOW','AI-assisted development'),('FOCUS','Interfaces + personal demos'),('OPEN TO','Remote roles / freelance'),('PUBLIC REPOS',str(user['public_repos'])),('FOLLOWERS',str(user['followers']))]
+ rows=[('ROLE','Web + AI developer'),('STACK','React / Next.js / TypeScript'),('WORKFLOW','AI-assisted development'),('FOCUS','Automation / Agentic AI / RAG'),('OPEN TO','Remote roles / freelance'),('PUBLIC REPOS',str(user['public_repos'])),('FOLLOWERS',str(user['followers']))]
  for j,(a,b) in enumerate(rows):
   yy=218+j*23;d.text((449,yy),a,font=f(11),fill=sub);d.text((567,yy),b,font=f(12),fill=ink)
  frames.append(im)
