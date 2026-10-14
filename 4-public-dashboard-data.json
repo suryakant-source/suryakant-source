@@ -1,15 +1,17 @@
 {
+  "design_version": 2,
   "public_repos": 14,
   "followers": 1,
   "following": 1,
   "languages": {
-    "Unset": 4,
+    "Unset": 3,
     "HTML": 1,
     "C": 2,
     "TypeScript": 3,
     "Java": 2,
     "JavaScript": 1,
-    "C++": 1
+    "C++": 1,
+    "Python": 1
   },
   "graph": {
     "summary": "288 contributions in the last year",
