@@ -16,6 +16,8 @@ jobs:
       - name: Install renderer dependencies
         run: python3 -m pip install Pillow==11.3.0 beautifulsoup4==4.13.4
       - name: Render changed public data only
+        env:
+          GH_TOKEN: ${{ github.token }}
         run: python3 5-render_dashboard.py
       - name: Commit changed assets only
         run: |
