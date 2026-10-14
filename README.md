@@ -17,6 +17,10 @@
 <h2>Production palette</h2>
 <picture><source media="(prefers-color-scheme: light)" srcset="assets-v3/9-stack-light.svg"><img src="assets-v3/8-stack-dark.svg" width="100%" alt="Project and practice tools"></picture>
 <p align="center">─────── ◇ ───────</p>
+<h2>Language signal</h2>
+<picture><source media="(prefers-color-scheme: light)" srcset="assets-v3/languages-light.svg"><img src="assets-v3/languages-dark.svg" width="100%" alt="Public primary-language repository breakdown"></picture><h2>Practice log</h2>
+<picture><source media="(prefers-color-scheme: light)" srcset="assets-v3/practice-light.svg"><img src="assets-v3/practice-dark.svg" width="100%" alt="Real archived LeetCode and Codeforces source counts"></picture><p><a href="https://github.com/suryakant-source/dsa-solutions">Browse the source archive</a></p>
+<p align="center">─────── ◇ ───────</p>
 <h2>Featured reel</h2>
 <picture><source media="(prefers-color-scheme: light)" srcset="assets-v3/6-projects-light.svg"><img src="assets-v3/5-projects-dark.svg" width="100%" alt="Four personal repository cards"></picture>
 <table width="100%"><tr><td width="25%" valign="top"><strong><a href="https://github.com/suryakant-source/promptforge-ai">promptforge-ai</a></strong><p>Next.js prompt UI prototype. Preset demo, not live generation.</p><sub>TypeScript</sub></td><td width="25%" valign="top"><strong><a href="https://github.com/suryakant-source/dsa-solutions">dsa-solutions</a></strong><p>AI-assisted LeetCode and Codeforces Python archive.</p><sub>Python</sub></td><td width="25%" valign="top"><strong><a href="https://github.com/suryakant-source/JAVA-Programming">JAVA-Programming</a></strong><p>Java programming practice.</p><sub>Java</sub></td><td width="25%" valign="top"><strong><a href="https://github.com/suryakant-source/C-programming">C-programming</a></strong><p>C programming practice.</p><sub>C</sub></td></tr></table>
