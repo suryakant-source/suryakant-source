@@ -1,12 +1,12 @@
 {
   "practice": {
-    "leetcode": 15,
-    "codeforces": 12
+    "leetcode": 28,
+    "codeforces": 20
   },
   "design": 6,
-  "repos": 15,
+  "repos": 17,
   "followers": 1,
-  "contributions": 294,
+  "contributions": 166,
   "days": [
     {
       "date": "2025-10-12",
@@ -62,7 +62,7 @@
     },
     {
       "date": "2025-10-25",
-      "level": 3
+      "level": 4
     },
     {
       "date": "2025-10-26",
@@ -74,7 +74,7 @@
     },
     {
       "date": "2025-10-28",
-      "level": 2
+      "level": 4
     },
     {
       "date": "2025-10-29",
@@ -590,7 +590,7 @@
     },
     {
       "date": "2026-03-06",
-      "level": 1
+      "level": 3
     },
     {
       "date": "2026-03-07",
@@ -698,7 +698,7 @@
     },
     {
       "date": "2026-04-02",
-      "level": 1
+      "level": 2
     },
     {
       "date": "2026-04-03",
@@ -1054,7 +1054,7 @@
     },
     {
       "date": "2026-06-30",
-      "level": 4
+      "level": 2
     },
     {
       "date": "2026-07-01",
@@ -1062,15 +1062,15 @@
     },
     {
       "date": "2026-07-02",
-      "level": 3
+      "level": 0
     },
     {
       "date": "2026-07-03",
-      "level": 4
+      "level": 0
     },
     {
       "date": "2026-07-04",
-      "level": 4
+      "level": 0
     },
     {
       "date": "2026-07-05",
@@ -1094,15 +1094,15 @@
     },
     {
       "date": "2026-07-10",
-      "level": 2
+      "level": 0
     },
     {
       "date": "2026-07-11",
-      "level": 2
+      "level": 0
     },
     {
       "date": "2026-07-12",
-      "level": 3
+      "level": 0
     },
     {
       "date": "2026-07-13",
@@ -1154,7 +1154,7 @@
     },
     {
       "date": "2026-07-25",
-      "level": 2
+      "level": 4
     },
     {
       "date": "2026-07-26",
@@ -1406,7 +1406,7 @@
     },
     {
       "date": "2026-09-26",
-      "level": 1
+      "level": 3
     },
     {
       "date": "2026-09-27",
@@ -1478,7 +1478,11 @@
     },
     {
       "date": "2026-10-14",
-      "level": 1
+      "level": 3
+    },
+    {
+      "date": "2026-10-15",
+      "level": 4
     }
   ],
   "stars": 0,
@@ -1492,16 +1496,8 @@
       "HTML"
     ],
     [
-      "B.tech-2025-26",
-      "C"
-    ],
-    [
       "C-programming",
       "C"
-    ],
-    [
-      "daily-log",
-      null
     ],
     [
       "dsa-solutions",
@@ -1510,6 +1506,10 @@
     [
       "gita2",
       "TypeScript"
+    ],
+    [
+      "grafana-pathfinder-app",
+      null
     ],
     [
       "ICRTS",
@@ -1528,6 +1528,10 @@
       "JavaScript"
     ],
     [
+      "langfuse",
+      null
+    ],
+    [
       "Menntor_Market",
       null
     ],
@@ -1538,6 +1542,14 @@
     [
       "promptforge-ai",
       "TypeScript"
+    ],
+    [
+      "PyAirbyte",
+      null
+    ],
+    [
+      "python-fire",
+      null
     ],
     [
       "suryakant-source",
