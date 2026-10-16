@@ -4,9 +4,9 @@
     "codeforces": 20
   },
   "design": 6,
-  "repos": 17,
+  "repos": 16,
   "followers": 1,
-  "contributions": 166,
+  "contributions": 146,
   "days": [
     {
       "date": "2025-10-12",
@@ -74,11 +74,11 @@
     },
     {
       "date": "2025-10-28",
-      "level": 4
+      "level": 0
     },
     {
       "date": "2025-10-29",
-      "level": 1
+      "level": 0
     },
     {
       "date": "2025-10-30",
@@ -1050,15 +1050,15 @@
     },
     {
       "date": "2026-06-29",
-      "level": 4
+      "level": 0
     },
     {
       "date": "2026-06-30",
-      "level": 2
+      "level": 0
     },
     {
       "date": "2026-07-01",
-      "level": 1
+      "level": 0
     },
     {
       "date": "2026-07-02",
@@ -1406,7 +1406,7 @@
     },
     {
       "date": "2026-09-26",
-      "level": 3
+      "level": 0
     },
     {
       "date": "2026-09-27",
@@ -1483,6 +1483,10 @@
     {
       "date": "2026-10-15",
       "level": 4
+    },
+    {
+      "date": "2026-10-16",
+      "level": 4
     }
   ],
   "stars": 0,
@@ -1524,10 +1528,6 @@
       "TypeScript"
     ],
     [
-      "job-right",
-      "JavaScript"
-    ],
-    [
       "langfuse",
       null
     ],
@@ -1536,8 +1536,8 @@
       null
     ],
     [
-      "Online-code-platform",
-      "C++"
+      "pipasa-portfolio",
+      "TypeScript"
     ],
     [
       "promptforge-ai",
