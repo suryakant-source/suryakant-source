@@ -8,7 +8,7 @@
 </div>
 
 <p align="center">─────── ◇ ───────</p>
-<table width="100%"><tr><td width="58%" valign="top"><h2>The point of view</h2><blockquote>Small steps. Honest work. Useful things.</blockquote><p>I build web interfaces, AI automations, agentic AI and RAG projects. I use AI coding tools and keep learning through practice.</p><p>Open to remote roles and freelance projects.</p></td><td width="42%" valign="top"><code>PROFILE</code><p>ROLE · Web + AI developer<br>BASED · Bhubaneswar, India<br>FOCUS · Automation / Agentic AI / RAG</p><p>16 public repos<br>146 public contributions<br>1 follower</p></td></tr></table>
+<table width="100%"><tr><td width="58%" valign="top"><h2>The point of view</h2><blockquote>Small steps. Honest work. Useful things.</blockquote><p>I build web interfaces, AI automations, agentic AI and RAG projects. I use AI coding tools and keep learning through practice.</p><p>Open to remote roles and freelance projects.</p></td><td width="42%" valign="top"><code>PROFILE</code><p>ROLE · Web + AI developer<br>BASED · Bhubaneswar, India<br>FOCUS · Automation / Agentic AI / RAG</p><p>17 public repos<br>149 public contributions<br>1 follower</p></td></tr></table>
 
 <p align="center">─────── ◇ ───────</p>
 <h2>In the current cut</h2>
