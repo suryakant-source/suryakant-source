@@ -1,12 +1,12 @@
 {
   "practice": {
-    "leetcode": 28,
+    "leetcode": 147,
     "codeforces": 20
   },
   "design": 6,
-  "repos": 17,
-  "followers": 1,
-  "contributions": 154,
+  "repos": 24,
+  "followers": 2,
+  "contributions": 280,
   "days": [
     {
       "date": "2025-10-19",
@@ -562,7 +562,7 @@
     },
     {
       "date": "2026-03-06",
-      "level": 3
+      "level": 2
     },
     {
       "date": "2026-03-07",
@@ -1126,7 +1126,7 @@
     },
     {
       "date": "2026-07-25",
-      "level": 4
+      "level": 3
     },
     {
       "date": "2026-07-26",
@@ -1450,7 +1450,7 @@
     },
     {
       "date": "2026-10-14",
-      "level": 3
+      "level": 2
     },
     {
       "date": "2026-10-15",
@@ -1458,15 +1458,19 @@
     },
     {
       "date": "2026-10-16",
-      "level": 4
+      "level": 3
     },
     {
       "date": "2026-10-17",
-      "level": 2
+      "level": 1
     },
     {
       "date": "2026-10-18",
       "level": 2
+    },
+    {
+      "date": "2026-10-19",
+      "level": 4
     }
   ],
   "stars": 0,
@@ -1481,11 +1485,15 @@
     ],
     [
       "amoeba",
-      null
+      "Ruby"
     ],
     [
       "C-programming",
       "C"
+    ],
+    [
+      "dex",
+      null
     ],
     [
       "dsa-solutions",
@@ -1512,11 +1520,35 @@
       "TypeScript"
     ],
     [
+      "kestra",
+      null
+    ],
+    [
       "langfuse",
       null
     ],
     [
+      "mage-k8s-operator",
+      null
+    ],
+    [
       "Menntor_Market",
+      null
+    ],
+    [
+      "mloda",
+      null
+    ],
+    [
+      "mloda-plugin-template",
+      null
+    ],
+    [
+      "mloda-registry",
+      "Python"
+    ],
+    [
+      "open-kgo",
       null
     ],
     [
