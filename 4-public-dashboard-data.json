@@ -1,12 +1,12 @@
 {
   "practice": {
-    "leetcode": 147,
+    "leetcode": 173,
     "codeforces": 20
   },
   "design": 6,
-  "repos": 24,
+  "repos": 31,
   "followers": 2,
-  "contributions": 280,
+  "contributions": 314,
   "days": [
     {
       "date": "2025-10-19",
@@ -34,7 +34,7 @@
     },
     {
       "date": "2025-10-25",
-      "level": 4
+      "level": 2
     },
     {
       "date": "2025-10-26",
@@ -562,7 +562,7 @@
     },
     {
       "date": "2026-03-06",
-      "level": 2
+      "level": 1
     },
     {
       "date": "2026-03-07",
@@ -670,7 +670,7 @@
     },
     {
       "date": "2026-04-02",
-      "level": 2
+      "level": 1
     },
     {
       "date": "2026-04-03",
@@ -1126,7 +1126,7 @@
     },
     {
       "date": "2026-07-25",
-      "level": 3
+      "level": 2
     },
     {
       "date": "2026-07-26",
@@ -1450,7 +1450,7 @@
     },
     {
       "date": "2026-10-14",
-      "level": 2
+      "level": 1
     },
     {
       "date": "2026-10-15",
@@ -1458,7 +1458,7 @@
     },
     {
       "date": "2026-10-16",
-      "level": 3
+      "level": 2
     },
     {
       "date": "2026-10-17",
@@ -1466,10 +1466,14 @@
     },
     {
       "date": "2026-10-18",
-      "level": 2
+      "level": 1
     },
     {
       "date": "2026-10-19",
+      "level": 4
+    },
+    {
+      "date": "2026-10-20",
       "level": 4
     }
   ],
@@ -1492,6 +1496,10 @@
       "C"
     ],
     [
+      "cli",
+      null
+    ],
+    [
       "dex",
       null
     ],
@@ -1505,7 +1513,7 @@
     ],
     [
       "grafana-pathfinder-app",
-      null
+      "TypeScript"
     ],
     [
       "ICRTS",
@@ -1518,6 +1526,10 @@
     [
       "Job-Copilot",
       "TypeScript"
+    ],
+    [
+      "kagent",
+      null
     ],
     [
       "kestra",
@@ -1548,7 +1560,15 @@
       "Python"
     ],
     [
+      "nx-neptune",
+      null
+    ],
+    [
       "open-kgo",
+      null
+    ],
+    [
+      "openmethane-prior",
       null
     ],
     [
@@ -1564,12 +1584,24 @@
       null
     ],
     [
+      "pytest",
+      null
+    ],
+    [
       "python-fire",
       null
     ],
     [
       "suryakant-source",
       "Python"
+    ],
+    [
+      "thinkrail",
+      null
+    ],
+    [
+      "vrl",
+      null
     ]
   ]
 }
