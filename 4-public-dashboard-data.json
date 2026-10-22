@@ -4,9 +4,9 @@
     "codeforces": 20
   },
   "design": 6,
-  "repos": 31,
+  "repos": 40,
   "followers": 2,
-  "contributions": 429,
+  "contributions": 459,
   "days": [
     {
       "date": "2025-10-19",
@@ -1479,6 +1479,10 @@
     {
       "date": "2026-10-21",
       "level": 4
+    },
+    {
+      "date": "2026-10-22",
+      "level": 4
     }
   ],
   "stars": 0,
@@ -1500,6 +1504,10 @@
       "C"
     ],
     [
+      "chatwoot",
+      null
+    ],
+    [
       "cli",
       null
     ],
@@ -1512,12 +1520,20 @@
       "Python"
     ],
     [
+      "freeCodeCamp",
+      null
+    ],
+    [
       "gita2",
       "TypeScript"
     ],
     [
       "grafana-pathfinder-app",
       "TypeScript"
+    ],
+    [
+      "grpc-client",
+      null
     ],
     [
       "ICRTS",
@@ -1540,11 +1556,19 @@
       null
     ],
     [
+      "kornia",
+      null
+    ],
+    [
       "langfuse",
       null
     ],
     [
       "mage-k8s-operator",
+      null
+    ],
+    [
+      "maven",
       null
     ],
     [
@@ -1564,6 +1588,10 @@
       "Python"
     ],
     [
+      "nvx",
+      null
+    ],
+    [
       "nx-neptune",
       null
     ],
@@ -1573,6 +1601,10 @@
     ],
     [
       "openmethane-prior",
+      null
+    ],
+    [
+      "packages",
       null
     ],
     [
@@ -1593,6 +1625,14 @@
     ],
     [
       "python-fire",
+      null
+    ],
+    [
+      "scopebot",
+      "TypeScript"
+    ],
+    [
+      "stormcrawler-site",
       null
     ],
     [
