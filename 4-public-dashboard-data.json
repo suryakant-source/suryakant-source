@@ -4,9 +4,9 @@
     "codeforces": 20
   },
   "design": 6,
-  "repos": 40,
+  "repos": 59,
   "followers": 2,
-  "contributions": 459,
+  "contributions": 489,
   "days": [
     {
       "date": "2025-10-19",
@@ -1483,6 +1483,10 @@
     {
       "date": "2026-10-22",
       "level": 4
+    },
+    {
+      "date": "2026-10-23",
+      "level": 4
     }
   ],
   "stars": 0,
@@ -1496,8 +1500,20 @@
       "HTML"
     ],
     [
+      "agents",
+      null
+    ],
+    [
+      "ai",
+      null
+    ],
+    [
       "amoeba",
       "Ruby"
+    ],
+    [
+      "assistant-ui",
+      null
     ],
     [
       "C-programming",
@@ -1512,7 +1528,19 @@
       null
     ],
     [
+      "CopilotKit",
+      null
+    ],
+    [
+      "cve-bin-tool",
+      null
+    ],
+    [
       "dex",
+      null
+    ],
+    [
+      "drizzle-orm",
       null
     ],
     [
@@ -1560,6 +1588,10 @@
       null
     ],
     [
+      "kotlinx.serialization",
+      null
+    ],
+    [
       "langfuse",
       null
     ],
@@ -1568,7 +1600,15 @@
       null
     ],
     [
+      "mastra",
+      null
+    ],
+    [
       "maven",
+      null
+    ],
+    [
+      "meilisearch-java",
       null
     ],
     [
@@ -1588,6 +1628,14 @@
       "Python"
     ],
     [
+      "neon-js",
+      null
+    ],
+    [
+      "nitro",
+      null
+    ],
+    [
       "nvx",
       null
     ],
@@ -1604,7 +1652,19 @@
       null
     ],
     [
+      "oras-go",
+      null
+    ],
+    [
+      "oxidized",
+      null
+    ],
+    [
       "packages",
+      null
+    ],
+    [
+      "pathling",
       null
     ],
     [
@@ -1628,11 +1688,23 @@
       null
     ],
     [
+      "revolution",
+      null
+    ],
+    [
       "scopebot",
       "TypeScript"
     ],
     [
+      "spring-security",
+      null
+    ],
+    [
       "stormcrawler-site",
+      null
+    ],
+    [
+      "storybook",
       null
     ],
     [
@@ -1644,7 +1716,15 @@
       null
     ],
     [
+      "ToolJet",
+      null
+    ],
+    [
       "vrl",
+      null
+    ],
+    [
+      "zod",
       null
     ]
   ]
