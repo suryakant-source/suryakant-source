@@ -1,12 +1,12 @@
 {
   "practice": {
-    "leetcode": 284,
+    "leetcode": 288,
     "codeforces": 20
   },
   "design": 6,
   "repos": 67,
-  "followers": 3,
-  "contributions": 530,
+  "followers": 2,
+  "contributions": 557,
   "days": [
     {
       "date": "2025-11-02",
@@ -1434,7 +1434,7 @@
     },
     {
       "date": "2026-10-24",
-      "level": 3
+      "level": 4
     },
     {
       "date": "2026-10-25",
@@ -1466,6 +1466,14 @@
     },
     {
       "date": "2026-11-01",
+      "level": 1
+    },
+    {
+      "date": "2026-11-02",
+      "level": 1
+    },
+    {
+      "date": "2026-11-03",
       "level": 1
     }
   ],
