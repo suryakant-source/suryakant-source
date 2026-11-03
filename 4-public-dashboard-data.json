@@ -1,12 +1,12 @@
 {
   "practice": {
-    "leetcode": 288,
+    "leetcode": 292,
     "codeforces": 20
   },
   "design": 6,
-  "repos": 67,
+  "repos": 69,
   "followers": 2,
-  "contributions": 557,
+  "contributions": 563,
   "days": [
     {
       "date": "2025-11-02",
@@ -1668,6 +1668,10 @@
       null
     ],
     [
+      "payload",
+      null
+    ],
+    [
       "pipasa-portfolio",
       "TypeScript"
     ],
@@ -1677,6 +1681,10 @@
     ],
     [
       "PyAirbyte",
+      null
+    ],
+    [
+      "pyright",
       null
     ],
     [
