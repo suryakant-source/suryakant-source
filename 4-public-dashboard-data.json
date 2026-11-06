@@ -1,12 +1,12 @@
 {
   "practice": {
-    "leetcode": 300,
+    "leetcode": 304,
     "codeforces": 20
   },
   "design": 6,
-  "repos": 69,
+  "repos": 70,
   "followers": 2,
-  "contributions": 1327,
+  "contributions": 1912,
   "days": [
     {
       "date": "2025-11-02",
@@ -1483,6 +1483,10 @@
     {
       "date": "2026-11-05",
       "level": 3
+    },
+    {
+      "date": "2026-11-06",
+      "level": 4
     }
   ],
   "stars": 0,
@@ -1514,6 +1518,10 @@
     [
       "C-programming",
       "C"
+    ],
+    [
+      "Carrier-hound",
+      null
     ],
     [
       "chatwoot",
