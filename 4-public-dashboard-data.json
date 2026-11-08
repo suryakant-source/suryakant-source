@@ -1,41 +1,13 @@
 {
   "practice": {
-    "leetcode": 308,
+    "leetcode": 312,
     "codeforces": 20
   },
   "design": 6,
   "repos": 70,
   "followers": 2,
-  "contributions": 2501,
+  "contributions": 2714,
   "days": [
-    {
-      "date": "2025-11-02",
-      "level": 0
-    },
-    {
-      "date": "2025-11-03",
-      "level": 0
-    },
-    {
-      "date": "2025-11-04",
-      "level": 0
-    },
-    {
-      "date": "2025-11-05",
-      "level": 0
-    },
-    {
-      "date": "2025-11-06",
-      "level": 1
-    },
-    {
-      "date": "2025-11-07",
-      "level": 0
-    },
-    {
-      "date": "2025-11-08",
-      "level": 0
-    },
     {
       "date": "2025-11-09",
       "level": 0
@@ -1490,6 +1462,10 @@
     },
     {
       "date": "2026-11-07",
+      "level": 4
+    },
+    {
+      "date": "2026-11-08",
       "level": 4
     }
   ],
