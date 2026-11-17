@@ -1,12 +1,12 @@
 {
   "practice": {
-    "leetcode": 340,
+    "leetcode": 344,
     "codeforces": 20
   },
   "design": 6,
   "repos": 70,
   "followers": 2,
-  "contributions": 3333,
+  "contributions": 3346,
   "days": [
     {
       "date": "2025-11-16",
@@ -1467,6 +1467,14 @@
     {
       "date": "2026-11-15",
       "level": 1
+    },
+    {
+      "date": "2026-11-16",
+      "level": 1
+    },
+    {
+      "date": "2026-11-17",
+      "level": 0
     }
   ],
   "stars": 0,
